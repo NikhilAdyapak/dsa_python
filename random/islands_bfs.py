@@ -10,7 +10,7 @@ def count_thermal_zones(grid):
         queue = collections.deque([(r,c)])
         grid[r][c] = 0
 
-        directions = [(1,0), (0,1) (-1, 0), (0,-1)]
+        directions = [(1,0), (0,1), (-1, 0), (0,-1)]
 
         while queue:
             current_r, current_c = queue.popleft()
@@ -30,3 +30,6 @@ def count_thermal_zones(grid):
                 bfs(r,c)
     
     return zone_count
+
+grid = [ [1, 0, 0], [1, 0, 0], [0, 0, 1] ]
+print(count_thermal_zones(grid))
