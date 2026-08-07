@@ -13,3 +13,7 @@ test/              scratch and test files
 ```
 
 Each folder groups related problems so the collection stays easy to revisit while preparing for interviews.
+
+---
+
+Built by Nikhil Adyapak · [Portfolio](https://nikhiladyapak.github.io/) · [LinkedIn](https://www.linkedin.com/in/nikhil-adyapak)
