@@ -1,14 +1,15 @@
 # dsa_python
 
-## Refresher
-## Day 1
-### 1. Contains Duplicate
-### 2. Longest consecutive array
-### 3. Container with most water
-### 4. Trapping Rain water
+Data Structures and Algorithms practice in Python. My ongoing collection of solutions, organized by topic and by day.
 
-## data_structures
+## Layout
 
-## dp
+```
+data_structures/   core data-structure implementations and problems
+DP/                dynamic programming problems
+Day1/ ...          daily problem sets
+random/            assorted practice problems
+test/              scratch and test files
+```
 
-## random
+Each folder groups related problems so the collection stays easy to revisit while preparing for interviews.
